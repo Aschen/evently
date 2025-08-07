@@ -1,0 +1,21 @@
+services:
+  evently-postgres:
+    image: postgres:17.5
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-database}
+      DB_NAME: ${POSTGRES_DB_NAME:-database}
+      DB_USER: ${POSTGRES_DB_USER:-database}
+      DB_USER_PASSWORD: ${POSTGRES_DB_USER_PASSWORD:-database}
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./databases/drizzle/sql/postgres-init-user-db.sh:/docker-entrypoint-initdb.d/init-user-db.sh
+      - evently_pg_data:/var/lib/postgresql/data
+    networks:
+      - evently_network
+
+volumes:
+  evently_pg_data:
+
+networks:
+  evently_network:

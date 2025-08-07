@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.build.json",
+  "exclude": ["node_modules", "dist", "**/*spec.ts"],
+  "compilerOptions": {
+    /**
+     * This options is required to stay at false in this file
+     * otherwise ESBuild will use SWC to compile TS files instead of
+     * the ESBuild TSC plugin.
+     * This options should only be enabled in the ESBuild TSC plugin directly.
+     */
+    "emitDecoratorMetadata": true,
+    "disableSourceOfProjectReferenceRedirect": true
+  }
+}

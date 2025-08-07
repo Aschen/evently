@@ -1,0 +1,2 @@
+# Ignore Agent Bridge mocked data
+src/features/task/tests/helpers/data

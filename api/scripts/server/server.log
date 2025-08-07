@@ -1,0 +1,32 @@
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mServerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+Thu, 07 Aug 2025 19:47:07 GMT body-parser deprecated undefined extended: provide extended option at src/main.ts:31:38
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +12ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/current-user, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/logout, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mEventsController {/events}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/events, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/events/favorites, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/events/locations, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/events, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/events/:id/favorite, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/events/:id/favorites, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/events/:id/favorites, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/events/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mServerController {/server}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/server/health-check, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 44942  - [39m08/07/2025, 9:47:07 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +0ms[39m
+[21:47:07.689] [32mINFO[39m: [36mStart application (NODE_ENV=development)[39m
+    appName: "evently"
+[21:47:07.765] [32mINFO[39m: [36mPostgres: Connect to database:****@localhost:5432/database[39m
+    appName: "evently"

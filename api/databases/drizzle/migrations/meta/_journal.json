@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1752686425103,
+      "tag": "0000_nosy_gwen_stacy",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1754585801749,
+      "tag": "0001_clumsy_earthquake",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1754594196251,
+      "tag": "0002_colorful_moira_mactaggert",
+      "breakpoints": true
+    }
+  ]
+}
